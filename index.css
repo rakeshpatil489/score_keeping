@@ -1,0 +1,130 @@
+body
+{
+    background-color: #ffffff;
+  
+}
+.h1, h1 {
+    font-size: 3.5rem;
+}
+h3{
+   letter-spacing: 1px; 
+}
+.card
+{
+    border:none;
+}
+.navbar
+{
+    height:100px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:1.5px;
+    background-color: #545496;
+}
+.navbar1
+{
+    height:60px;
+    background-color: #545496;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.90rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #ffffff;
+}
+.modal, input 
+{
+    font-family: 'Roboto', sans-serif;
+}
+.modal-header
+{
+    background-color: #535397;
+    color:#ffffff;
+}
+.close
+{
+    color:#ffffff;
+}
+.form-control:focus {
+    color: #4f469e;
+    background-color: #fff;
+    border-color: #5e65d3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 81, 255, 0.25);
+}
+
+/*---BUTTON STYLING--*/
+button
+{
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    margin:4px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #545496;
+    border-color: #545496;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #464699;
+    border-color: #484894;
+}
+.btn-success:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #545496;
+    border-color: #545496;
+}
+.btn-success:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(110, 72, 180, 0.5);
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(110, 72, 180, 0.5);
+}
+
+
+
+.colorChange
+{
+    background-color:rgb(163, 162, 162);
+}
+
+.game
+{
+    padding:20px;
+    margin: 10px;
+}
+
+.green
+{
+    color:rgb(60, 156, 51);
+}
+/*---styles--*/
+.backgroundShadowPurpel
+{
+    box-shadow: 0 10px 20px rgba(85, 58, 136, 0.19), 0 6px 6px rgba(70, 36, 151, 0.23);
+}
+.backgroundShadowRed
+{
+    box-shadow: 0 10px 20px rgba(136, 58, 58, 0.19), 0 6px 6px rgba(151, 36, 36, 0.23);
+}
+
+@media (max-width: 756px) 
+{
+    .h1, h1 {
+        font-size: 2.5rem;
+    }
+    .navbar-brand
+    {
+        font-size: 1.70rem;
+    }
+    h3
+    {
+        font-size: 1.50rem;
+    }
+
+}

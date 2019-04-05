@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="icons/scoreboard.png" sizes="96x96">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!--CSS files -->
+    <link rel="stylesheet" href="index.css">
+
+
+    <title>Score Keeping Application</title>
+</head>
+
+<body>
+    <!-- As a heading -->
+    <nav class="navbar justify-content-center">
+        <span class="navbar-brand mb-0 h1 "> SCORE KEEPING APP</span>
+    </nav>
+
+
+    <div class="container">
+        <!-- Content here -->
+        <!--<div class="card">
+                <div class="card-body">
+                        <button type="button" class="btn btn-outline-primary">Theme Change</button>
+                </div>
+            </div>-->
+
+        <div class="game">
+
+
+
+            <div class="card score text-center">
+                <div class="card-body">
+                    <h1> <span id='p1Display'>0</span> | AND | <span id='p2Display'>0</span> </h1>
+                </div>
+            </div>
+
+            <div class="card player text-center">
+                <div class="card-body">
+                    <h3>NO. OF PLAYS: <span id="playingTo">5</span>
+                        <h3>
+                </div>
+            </div>
+
+            <div class="card player text-center">
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Number of plays" min="0"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2" id="inputPlayers">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card player text-center">
+                <div class="card-body">
+                    <button type="button" class="btn btn-success playerButton1 backgroundShadowPurpel">PLAYER ONE
+                        (+)</button>
+                    <button type="button" class="btn btn-success playerButton2 backgroundShadowPurpel">PLAYER TWO
+                        (+)</button>
+                    <button type="button" class="btn btn-danger playerButton backgroundShadowRed ">RESET</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade in" id="launchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel">Hello! Hola! Hallo!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="icons/traffic-sign.png" alt="image" style="height:130px; width:170px;">
+                   <h5> To the Score Keeper app!</h5>
+                </div>
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-success playerButton1 backgroundShadowPurpel"  data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<footer>
+            <nav class="navbar1 justify-content-center fixed-bottom .d-sm-none .d-md-block">
+                    <span class="navbar-brand mb-0 h1 "> </span>
+            </nav>
+
+    </footer>-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
